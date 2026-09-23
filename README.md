@@ -78,14 +78,6 @@ Open Terminal 3:
 # Run the 6 automated Attack 1 injection shots
 powershell -ExecutionPolicy Bypass -File .\demo-payloads\attack1-demo.ps1 -NoPause
 
-# Interactive run (press Enter between shots to explain)
-powershell -ExecutionPolicy Bypass -File .\demo-payloads\attack1-demo.ps1
-
-# Attack as a specific real user from MongoDB
-powershell -ExecutionPolicy Bypass -File .\demo-payloads\attack1-demo.ps1 -UserId u_aishwarya
-
-# Generate poisoned PDF for Attack 2 (RAG Poisoning)
-python .\demo-payloads\generate_hacker_pdf.py
 ```
 
 ---
